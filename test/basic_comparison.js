@@ -1,3 +1,4 @@
+/*jslint node: true, mocha: true */
 'use strict';
 
 var difftool = require('../index.js'),
