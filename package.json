@@ -1,0 +1,18 @@
+{
+  "name": "difftool",
+  "version": "0.0.1",
+  "description": "Diff module to compare javascript objects and xml data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "diff"
+  ],
+  "author": "Orlando Perri <orlando.perri@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "xml2js": "^0.4.8"
+  }
+}
