@@ -116,12 +116,12 @@ var compareObjects = function(a, b, schema, keyPrefix, options) {
 
 module.exports = {
     diff: function(lhs,rhs,schema, options, next) {
-      next(compareObjects(lhs,rhs,schema || {}, null, options));
+      next(compareObjects(lhs,rhs,schema || {}, null, options || {}));
     },
    diffAsXml: function(lhs, rhs, schema, options, next) {
         xml2js.parseString(lhs,function(err, lhsp) {
             xml2js.parseString(rhs, function(err, rhsp) {
-                next(compareObjects(lhsp,rhsp, schema || {}, null, options));
+                next(compareObjects(lhsp,rhsp, schema || {}, null, options || {}));
             });
         });
     }
