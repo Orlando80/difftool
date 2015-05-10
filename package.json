@@ -1,16 +1,24 @@
 {
   "name": "difftool",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Diff module to compare javascript objects and xml data",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
+  "repository": {
+    "type":"git",
+    "url": "git://github.com/Orlando80/difftool"
+  },
+  "bugs": {
+    "url": "https://github.com/Orlando80/difftool/issues"
+  },
+  "homepage": "https://github.com/Orlando80/difftool",
   "keywords": [
     "diff"
   ],
   "author": "Orlando Perri <orlando.perri@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "underscore": "^1.8.3",
     "xml2js": "^0.4.8"
