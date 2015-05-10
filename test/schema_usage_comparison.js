@@ -1,3 +1,4 @@
+/*jslint node: true, mocha: true */
 'use strict';
 
 var should = require('chai').should(),
