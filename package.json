@@ -1,6 +1,6 @@
 {
   "name": "difftool",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Diff module to compare javascript objects and xml data",
   "main": "index.js",
   "scripts": {
